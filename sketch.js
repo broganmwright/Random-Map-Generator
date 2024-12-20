@@ -14,7 +14,7 @@ function setup() {
       else if (n < 0.5){
         set(i, j, shore);
       }
-      else if (n > 0.5){
+      else{
         set(i, j, land);
       }
     }
